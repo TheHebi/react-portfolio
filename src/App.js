@@ -3,9 +3,10 @@ import Header from './components/Header';
 import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
-import ContactUs from './components/ContactUs';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -13,10 +14,10 @@ function App() {
       <div className="App">
         <Header />
         <About />
-        <Resume />
-        <Portfolio />
-        <ContactUs />
-        <Footer />
+        {/* <Resume /> */}
+        {/* <Portfolio /> */}
+        {/* <Contact /> */}
+        {/* <Footer /> */}
       </div>
     </div>
   );
