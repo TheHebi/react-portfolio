@@ -5,7 +5,7 @@ import {Navbar} from "react-bootstrap"
 export default function Header() {
 
   return (
-    <div>
+    <div className="header">
       <Navbar expand="lg" bg="dark" sticky="top">
           <div class="text-light">
             <h4 class="nav-title-font">Nathaniel Turcotte</h4>
