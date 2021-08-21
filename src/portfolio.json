@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Games For You",
+        "image": "https://github.com/delizoderek/Games-for-you/blob/develop/assets/images/landing-page.png?raw=true",
+        "github": "https://github.com/delizoderek/Games-for-you",
+        "deploy": "https://delizoderek.github.io/Games-for-you/"
+    },
+    {
+        "id": 2,
+        "name": "Recipes Refocused",
+        "image": "https://github.com/TheHebi/recipe-forum-site/blob/develop/images/landing-page.png?raw=true",
+        "github": "https://github.com/TheHebi/recipe-forum-site",
+        "deploy": "https://recipes-refocused.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "name": "Password Generator",
+        "image": "https://github.com/TheHebi/password-generator/blob/main/Assets/Images/initial-load.png?raw=true",
+        "github": "https://github.com/TheHebi/password-generator",
+        "deploy": "https://thehebi.github.io/password-generator/"
+    },
+    {
+        "id": 4,
+        "name": "Note Taker",
+        "image": "https://github.com/TheHebi/note-taker/blob/main/images/initial-load.png?raw=true",
+        "github": "https://github.com/TheHebi/note-taker",
+        "deploy": "https://njt-note-taker.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "name": "Work Day Planner",
+        "image": "https://github.com/TheHebi/work-day-planner/blob/main/assets/images/example.png?raw=true",
+        "github": "https://github.com/TheHebi/work-day-planner",
+        "deploy": "https://thehebi.github.io/work-day-planner/"
+    },
+    {
+        "id": 6,
+        "name": "Workout Tracker",
+        "image": "https://github.com/TheHebi/workout-tracker/blob/main/images/landing-page.png?raw=true",
+        "github": "https://github.com/TheHebi/workout-tracker",
+        "deploy": "https://njt-fitness-tracker.herokuapp.com/"
+    }
+]
