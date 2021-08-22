@@ -4,3 +4,7 @@ ul {
 .top-title {
   margin-top: 20px;
 }
+
+.link {
+  text-decoration: none;
+}

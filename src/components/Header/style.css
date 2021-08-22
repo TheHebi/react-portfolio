@@ -2,6 +2,10 @@ header {
   background: gray;
 }
 
+ul{
+    margin-left: auto;
+}
+
 nav li {
   cursor: pointer;
 }

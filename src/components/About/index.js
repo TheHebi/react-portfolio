@@ -6,10 +6,10 @@ export default function About() {
 
   return (
     <div className="about container">
-        <h2 class="top-title">Nathaniel Turcotte</h2>
+        <h2 className="top-title">Nathaniel Turcotte</h2>
             <hr></hr>
             <div>
-                <img class="mb-5" id="avatar" src={img} alt="nathaniel-turcotte" />
+                <img className="mb-5" id="avatar" src={img} alt="nathaniel-turcotte" />
 
                 <p>
                 My name is Nathaniel Turcotte, and I am an aspiring developer learning the world of coding. 

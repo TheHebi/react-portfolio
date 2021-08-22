@@ -8,7 +8,7 @@ export default function Resume() {
       <hr></hr>
 
       <div>
-        <div class="mt-5">
+        <div className="mt-5">
           <h2 className="top-title">Nathaniel Turcotte</h2>
           <ul>
             <li>
@@ -17,15 +17,17 @@ export default function Resume() {
           </ul>
 
           <a
-            href="https://drive.google.com/file/d/1e60riNU5kRTHItjVVWq3uIcI1eL2ww1T/view?usp=sharing" target="_blank"
-            class="link"
+            href="https://drive.google.com/file/d/1e60riNU5kRTHItjVVWq3uIcI1eL2ww1T/view?usp=sharing" 
+            target="_blank"
+            rel="noreferrer"
+            className="link"
           >
             Download Resume
           </a>
         </div>
       </div>
 
-      <div class="justify-content-center mt-5">
+      <div className="justify-content-center mt-5">
         <div>
           <h2 className="top-title">Proficiencies</h2>
           <ul>

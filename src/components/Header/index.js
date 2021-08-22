@@ -7,21 +7,21 @@ export default function Header() {
   return (
     <div className="header">
       <Navbar expand="lg" bg="dark" sticky="top">
-          <div class="text-light">
-            <h4 class="nav-title-font">Nathaniel Turcotte</h4>
+          <div className="text-light">
+            <h4 className="nav-title-font">Nathaniel Turcotte</h4>
           </div>
-        <ul class="navbar-nav ml-auto navitem-indent">
-          <li class="nav-item">
-              <div class="nav-font text-light">About Me</div>
+        <ul className="navbar-nav ml-auto navitem-indent">
+          <li className="nav-item">
+              <div className="nav-font text-light">About Me</div>
           </li>
-          <li class="nav-item">
-              <div class="nav-font text-light">Portfolio</div>
+          <li className="nav-item">
+              <div className="nav-font text-light">Portfolio</div>
           </li>
-          <li class="nav-item">
-              <div class="nav-font text-light">Contact</div>
+          <li className="nav-item">
+              <div className="nav-font text-light">Contact</div>
           </li>
-          <li class="nav-item">
-              <div class="nav-font text-light">Resume</div>
+          <li className="nav-item">
+              <div className="nav-font text-light">Resume</div>
           </li>
         </ul>
       </Navbar>
