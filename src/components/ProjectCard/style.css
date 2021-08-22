@@ -44,3 +44,8 @@
   background-color: white;
   padding: 5px;
 }
+
+.description {
+  font-size: small;
+  font-style: italic;
+}

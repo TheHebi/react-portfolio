@@ -25,6 +25,7 @@ export default function Portfolio(props) {
             />
           </a>
         </p>
+        <p className="description">{props.description}</p>
       </div>
     </div>
   );

@@ -1,30 +1,28 @@
-import React from 'react';
-import './style.css';
-import {Navbar} from "react-bootstrap"
+import React from "react";
+import { Route, Redirect, HashRouter } from "react-router-dom";
+import Navigation from "../Navigation";
+import About from "../About";
+import Portfolio from "../Portfolio";
+import Resume from '../Resume';
+import "./style.css";
+
 
 export default function Header() {
 
   return (
     <div className="header">
-      <Navbar expand="lg" bg="dark" sticky="top">
-          <div className="text-light">
-            <h4 className="nav-title-font">Nathaniel Turcotte</h4>
-          </div>
-        <ul className="navbar-nav ml-auto navitem-indent">
-          <li className="nav-item">
-              <div className="nav-font text-light">About Me</div>
-          </li>
-          <li className="nav-item">
-              <div className="nav-font text-light">Portfolio</div>
-          </li>
-          <li className="nav-item">
-              <div className="nav-font text-light">Contact</div>
-          </li>
-          <li className="nav-item">
-              <div className="nav-font text-light">Resume</div>
-          </li>
-        </ul>
-      </Navbar>
+      <HashRouter>
+        <header>
+          <Navigation />
+        </header>
+
+        <div className="content">
+          <Route exact path="/" render={() => <Redirect to="/about" />} />
+          <Route path="/about" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/resume" component={Resume}/>
+        </div>
+      </HashRouter>
     </div>
   );
 }

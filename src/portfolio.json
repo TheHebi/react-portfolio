@@ -4,41 +4,47 @@
         "name": "Games For You",
         "image": "https://github.com/delizoderek/Games-for-you/blob/develop/assets/images/landing-page.png?raw=true",
         "github": "https://github.com/delizoderek/Games-for-you",
-        "deploy": "https://delizoderek.github.io/Games-for-you/"
+        "deploy": "https://delizoderek.github.io/Games-for-you/",
+        "description":"A web application to browse and search for video or board games."
     },
     {
         "id": 2,
         "name": "Recipes Refocused",
         "image": "https://github.com/TheHebi/recipe-forum-site/blob/develop/images/landing-page.png?raw=true",
         "github": "https://github.com/TheHebi/recipe-forum-site",
-        "deploy": "https://recipes-refocused.herokuapp.com/"
+        "deploy": "https://recipes-refocused.herokuapp.com/",
+        "description":"A website to search for or share recipes."
     },
     {
         "id": 3,
         "name": "Password Generator",
         "image": "https://github.com/TheHebi/password-generator/blob/main/Assets/Images/initial-load.png?raw=true",
         "github": "https://github.com/TheHebi/password-generator",
-        "deploy": "https://thehebi.github.io/password-generator/"
+        "deploy": "https://thehebi.github.io/password-generator/",
+        "description":"A web application to generate a secure password based of user input."
     },
     {
         "id": 4,
         "name": "Note Taker",
         "image": "https://github.com/TheHebi/note-taker/blob/main/images/initial-load.png?raw=true",
         "github": "https://github.com/TheHebi/note-taker",
-        "deploy": "https://njt-note-taker.herokuapp.com/"
+        "deploy": "https://njt-note-taker.herokuapp.com/",
+        "description":"A web application to take notes with."
     },
     {
         "id": 5,
         "name": "Work Day Planner",
         "image": "https://github.com/TheHebi/work-day-planner/blob/main/assets/images/example.png?raw=true",
         "github": "https://github.com/TheHebi/work-day-planner",
-        "deploy": "https://thehebi.github.io/work-day-planner/"
+        "deploy": "https://thehebi.github.io/work-day-planner/",
+        "description":"A web application to plan your work day."
     },
     {
         "id": 6,
         "name": "Workout Tracker",
         "image": "https://github.com/TheHebi/workout-tracker/blob/main/images/landing-page.png?raw=true",
         "github": "https://github.com/TheHebi/workout-tracker",
-        "deploy": "https://njt-fitness-tracker.herokuapp.com/"
+        "deploy": "https://njt-fitness-tracker.herokuapp.com/",
+        "description":"A web application to track your workouts."
     }
 ]
