@@ -5,7 +5,7 @@ import img from './headshot.png'
 export default function About() {
 
   return (
-    <div className="about">
+    <div className="about container">
         <h2 class="top-title">Nathaniel Turcotte</h2>
             <hr></hr>
             <div>

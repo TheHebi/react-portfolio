@@ -12,8 +12,7 @@ export default function Resume() {
           <h2 className="top-title">Nathaniel Turcotte</h2>
           <ul>
             <li>
-              Core competencies in enterpirse content management, full-stack web
-              development, data architecture, and managing integrations.
+              Core competencies in full-stack web development, data management, and data integrations.
             </li>
           </ul>
 

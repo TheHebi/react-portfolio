@@ -11,7 +11,7 @@ export default function Portfolio() {
     return <div className="wrapper">{props.children}</div>;
   }
   return (
-    <div className="portfolio">
+    <div className="portfolio container">
       <div className="project">
         <h2 className="top-title">Bootcamp Portfolio</h2>
         <hr></hr>
