@@ -10,14 +10,14 @@ export default function Portfolio(props) {
       <div className="content">
         <p className="card-title">{props.name}</p>
         <p className="proj-icons-container">
-          <a href={props.github}>
+          <a href={props.github} target="_blank" rel="noreferrer">
             <img
               className="project-icon"
               src="https://img.icons8.com/fluent/48/000000/github.png"
               alt="GitHub Repo"
             />
           </a>
-          <a href={props.deploy}>
+          <a href={props.deploy} target="_blank" rel="noreferrer">
             <img
               className="project-icon"
               src="https://img.icons8.com/fluent/48/000000/domain.png"
