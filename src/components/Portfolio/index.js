@@ -13,7 +13,7 @@ export default function Portfolio() {
   return (
     <div className="portfolio container">
       <div className="project">
-        <h2 className="top-title">Bootcamp Portfolio</h2>
+        <h2 className="top-title">My Projects</h2>
         <hr></hr>
       </div>
 
@@ -26,6 +26,7 @@ export default function Portfolio() {
             github={project.github}
             deploy={project.deploy}
             description={project.description}
+            technologies={project.technologies}
           />
         ))}
       </Wrapper>

@@ -18,10 +18,10 @@ export default function About() {
                 After almost a decade of working dead-end jobs, I decided it was time to take control over my trajectory in life. It was time to learn a skill I could use to make myself more valuable as an employee, so I decided to learn how to write code.
                 </p>
                 <p>
-                I enrolled in the UW Coding Bootcamp from June 14th, 2021 to September 7, 2021.
+                I enrolled in the UW Coding Bootcamp from June 14th, 2021 to September 7, 2021. Upon completion of the course I received my Full-Stack Flex Web Developer certificate.
                 </p>
                 <p>
-                Winner of the "Best Presentation" and "People's Choice" awards for project 2 in the course.
+                Winner of the "Best Presentation" and "People's Choice" awards for Recipes Refocused.
                 </p>
             </div>
     </div>
