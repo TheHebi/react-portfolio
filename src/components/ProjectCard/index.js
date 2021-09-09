@@ -10,7 +10,7 @@ export default function Portfolio(props) {
       <div className="content">
         <p className="card-title">{props.name}</p>
         <p className="description">{props.description}</p>
-        <p className="tech">Technologies Used:</p>
+        <p className="tech-used">Technologies Used:</p>
         <p className="tech">{props.technologies}</p>
         <p className="proj-icons-container">
           <a href={props.github} target="_blank" rel="noreferrer">

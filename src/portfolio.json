@@ -1,23 +1,23 @@
 [
+    
     {
         "id": 1,
+        "name": "Trips Refocused",
+        "image": "https://github.com/TheHebi/travel-planner/raw/develop/images/load.png",
+        "github": "https://github.com/TheHebi/travel-planner",
+        "deploy": "https://trips-refocused.herokuapp.com/",
+        "description":"A web application to plan trips with your co-travelers.",
+        "technologies":"React, JavaScript, CSS3, Express.js, MySQL, Sequelize, Heroku, Google Locations API, React Date Picker"
+    },
+    {
+        "id": 2,
         "name": "Recipes Refocused",
         "image": "https://github.com/TheHebi/recipe-forum-site/blob/develop/images/landing-page.png?raw=true",
         "github": "https://github.com/TheHebi/recipe-forum-site",
         "deploy": "https://recipes-refocused.herokuapp.com/",
         "description":"A website to search for or share recipes, without having to browse three pages of backstory",
-        "technologies":"JavaScript, MYSQL, Sequelize, Handlebars, CSS3, Express.js"
+        "technologies":"JavaScript, MYSQL, Sequelize, Handlebars, CSS3, Express.js, Heroku"
     },
-    {
-        "id": 2,
-        "name": "Games For You",
-        "image": "https://github.com/delizoderek/Games-for-you/blob/develop/assets/images/landing-page.png?raw=true",
-        "github": "https://github.com/delizoderek/Games-for-you",
-        "deploy": "https://delizoderek.github.io/Games-for-you/",
-        "description":"A web application to browse and search for video or board games.",
-        "technologies":"JavaScript, HTML5, CSS3"
-    },
-    
     {
         "id": 3,
         "name": "Password Generator",

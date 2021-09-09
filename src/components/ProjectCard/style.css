@@ -1,7 +1,7 @@
 .card {
   background-color: white;
   border-radius: 5px;
-  height: 400px;
+  height: 450px;
   margin: 2rem;
   position: relative;
   width: 400px;
@@ -26,12 +26,12 @@
 .card .content {
   font-size: 18px;
   background-color: white;
-  color: var(--cadet-blue);
+  color: black;
   font-weight: bold;
   text-align: center;
 }
 
-.card-title {
+.card-title .tech-used{
   margin-top: 10px;
   color: black;
 }
@@ -52,5 +52,4 @@
 
 .tech {
   font-size: small;
-  
 }
