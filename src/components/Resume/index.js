@@ -26,7 +26,7 @@ export default function Resume() {
           </ul>
 
           <a
-            href="https://docs.google.com/document/d/1MXrsMslngyBgMnJ4di7mb5vPUq_RmxF8pUVntZRNrvw/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1Ge2tQDmG2rDvFgzIvIzi01Lrq1bjC0piZFfkD4pXfmk/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="link"
