@@ -22,6 +22,7 @@ export default function About() {
                 </p>
                 <p>
                 Winner of the "Best Presentation" and "People's Choice" awards for Recipes Refocused.
+                Winner of the "Best Functionality" and "People's Choice" awards for Trips Refocused.
                 </p>
             </div>
     </div>
