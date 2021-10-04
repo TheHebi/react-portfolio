@@ -6,7 +6,7 @@ export default function About() {
 
   return (
     <div className="about container">
-        <h2 className="top-title">Nathaniel Turcotte</h2>
+        <h2 className="top-title">About Me</h2>
             <hr></hr>
             <div>
                 <img className="mb-5" id="avatar" src={img} alt="nathaniel-turcotte" />

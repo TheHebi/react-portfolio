@@ -1,33 +1,31 @@
 import React from "react";
-import { Navbar } from "react-bootstrap";
-import {NavLink} from "react-router-dom";
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
 
 export default function Navigation(props) {
   return (
     <div className="navigation">
-      <Navbar expand="lg" bg="dark" sticky="top">
-        <NavLink className="nav-link" to="/">
-          <div className="text-light nav-name">
-            <h4 className="nav-title-font">Nathaniel Turcotte</h4>
-          </div>
-        </NavLink>
-        <ul className="navbar-nav ml-auto navitem-indent">
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/about">
-              <div className="nav-font text-light">About Me</div>
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/portfolio">
-              <div className="nav-font text-light">Portfolio</div>
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/resume">
-              <div className="nav-font text-light">Resume</div>
-            </NavLink>
-          </li>
-        </ul>
+      <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top">
+        <Container>
+          <Nav.Item as="h4">
+            <Navbar.Brand href="/">Nathaniel Turcotte</Navbar.Brand>
+          </Nav.Item>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav defaultActiveKey="#about" as="ul">
+              <Nav.Item as="li">
+                <Nav.Link href="#about">About Me</Nav.Link>
+              </Nav.Item>
+              <Nav.Item as="li">
+                <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+              </Nav.Item>
+              <Nav.Item as="li">
+                <Nav.Link href="#resume">Resume</Nav.Link>
+              </Nav.Item>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
       </Navbar>
     </div>
   );
